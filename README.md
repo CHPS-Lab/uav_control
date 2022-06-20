@@ -1,6 +1,6 @@
 # Chance Constrained Model Predictive Control
 
-![Drone](figure/drone.jpg)
+<img src="figures/drone.jpg" width="800">
 
 Chance constrained model predictive control for unmanned aerial vehicle flight control with consideration of wind speed and direction.
 
