@@ -1,0 +1,25 @@
+<launch>
+    <arg name="camera1_name"     default="d435i"/>
+    <arg name="camera2_name"     default="t265"/>
+    <arg name="output_filepath" default="/media/$(env USER)/SSD/"/>
+
+    <node pkg="rosbag" type="record" name="record_bag" 
+        args="record /$(arg camera1_name)/color/image_raw/compressed
+                /$(arg camera1_name)/color/camera_info
+                /$(arg camera1_name)/infra1/image_rect_raw/compressed
+                /$(arg camera1_name)/infra1/camera_info
+                /$(arg camera1_name)/infra2/image_rect_raw/compressed
+                /$(arg camera1_name)/infra2/camera_info
+                /$(arg camera2_name)/odom/sample
+                /tf
+                /tf_static
+                /mavros/odometry/out
+                /mavros/local_position/pose
+                /mavros/local_position/velocity_body
+                /mavros/rc/in
+                /mavros/state
+                --lz4
+                -o $(arg output_filepath)/$(arg camera1_name)"
+    />
+
+</launch>
