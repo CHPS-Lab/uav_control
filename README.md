@@ -12,10 +12,10 @@ A video of the experiment can be found here: [**UAV-based Precision Pest Managem
 Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management, Frontiers in Robotics and AI (peer-reviewing).
 
 ## Requirement
-This code has only been tested on Ubuntu 20.04 with ROS Noetic. ROS2 currently is not supported.
+This code has only been tested on **Ubuntu 20.04** with **ROS Noetic**. ROS2 currently is not supported.
 
 ## Installation
-#### Please follow these steps to install **ROS Noetic**:
+#### Please follow these steps to install ROS:
 **Step 1**. Setup your computer to accept software from packages.ros.org.
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
