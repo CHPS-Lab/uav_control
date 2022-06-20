@@ -1,0 +1,10 @@
+<launch>
+  <arg name="quad_name" />
+  <group ns="$(arg quad_name)" >
+
+    <node pkg="mpc" type="mpc_controller_node" name="mpc_controller_node" output="screen" >
+      <rosparam file="$(find mpc)/parameters/default.yaml" />
+    </node>
+
+  </group>
+</launch>
