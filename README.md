@@ -52,3 +52,6 @@ sudo apt install python3-rosdep
 sudo rosdep init
 rosdep update
 ```
+
+## Licence
+The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
