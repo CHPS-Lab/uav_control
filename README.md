@@ -2,22 +2,20 @@
 
 <img src="figures/drone.jpg" width="800">
 
-Chance constrained model predictive control for unmanned aerial vehicle flight control with consideration of wind speed and direction.
+Chance constrained MPC for unmanned aerial vehicle flight control with consideration of wind speed and direction.
 
 This MPC is intended to be used with a dispersion model identified through flight experiments. The model predicts the distribution of vermiculite dispensed from a hovering drone given the drone’s movement state, wind condition, and dispenser setting.
 
-A video of the experiment can be found here:
-
-[**UAV-based Precision Pest Management: Vermiculite Dispensing Experiment with Bugbot**](https://www.youtube.com/watch?v=st_apuEBtJg)
+A video of the experiment can be found here: [**UAV-based Precision Pest Management: Vermiculite Dispensing Experiment with Bugbot**](https://www.youtube.com/watch?v=st_apuEBtJg)
 
 ## Publication
-Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management, Frontiers in Robotics and AI, submitted.
+Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management, Frontiers in Robotics and AI (peer-reviewing).
 
 ## Requirement
 This code has only been tested on Ubuntu 20.04 with ROS Noetic. ROS2 currently is not supported.
 
 ## Installation
-#### Please follow the steps to install **ROS Noetic** on Ubuntu 20.04:
+#### Please follow these steps to install **ROS Noetic**:
 **Step 1**. Setup your computer to accept software from packages.ros.org.
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
