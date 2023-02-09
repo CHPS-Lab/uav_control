@@ -68,7 +68,6 @@ Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nanse
   url={https://www.frontiersin.org/articles/10.3389/frobt.2022.854381},       
   doi={10.3389/frobt.2022.854381}
 }
-
 ```
 
 ## 5. Acknowledgements
