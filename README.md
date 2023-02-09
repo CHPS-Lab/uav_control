@@ -1,20 +1,20 @@
-# Chance Constrained Model Predictive Control
+# uav_control
+## Chance Constrained Model Predictive Control
 
-<img src="figures/drone.jpg" width="800">
+<img src="figures/drone.jpg" width="400">
 
-Chance constrained MPC for unmanned aerial vehicle flight control with consideration of wind speed and direction.
+## 1. Introduction
+Chance constrained MPC for unmanned aerial vehicle flight control with consideration of wind speed and direction. This MPC is intended to be used with a dispersion model identified through flight experiments. The model predicts the distribution of vermiculite dispensed from a hovering drone given the drone’s movement state, wind condition, and dispenser setting.
 
-This MPC is intended to be used with a dispersion model identified through flight experiments. The model predicts the distribution of vermiculite dispensed from a hovering drone given the drone’s movement state, wind condition, and dispenser setting.
+The video of our experiment is available on YouTube (click):
 
-A video of the experiment can be found here: [**UAV-based Precision Pest Management: Vermiculite Dispensing Experiment with Bugbot**](https://www.youtube.com/watch?v=st_apuEBtJg)
+[![Video](https://img.youtube.com/vi/st_apuEBtJg/hqdefault.jpg)](https://www.youtube.com/watch?v=st_apuEBtJg)
 
-## Publication
-Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management, Frontiers in Robotics and AI (peer-reviewing).
 
-## Requirement
+## 2. Requirement
 This code has only been tested on **Ubuntu 20.04** with **ROS Noetic**. ROS2 currently is not supported.
 
-## Installation
+## 3. Installation
 #### Please follow these steps to install ROS:
 **Step 1**. Setup your computer to accept software from packages.ros.org.
 ```
@@ -53,5 +53,26 @@ sudo rosdep init
 rosdep update
 ```
 
-## Licence
+## 4. Publication
+Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, [**Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management**](https://www.frontiersin.org/articles/10.3389/frobt.2022.854381/full), *Frontiers in Robotics and AI*.
+
+Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nansen and Zhaodan Kong, Data-Driven Vermiculite Distribution Modelling for UAV-Based Precision Pest Management, Frontiers in Robotics and AI.
+
+```
+@article{10.3389/frobt.2022.854381,
+  title={Data-driven vermiculite distribution modelling for UAV-based precision pest management},     
+  author={Ma, Na and Mantri, Anil and Bough, Graham and Patnaik, Ayush and Yadav, Siddhesh and Nansen, Christian and Kong, Zhaodan},
+  journal={Frontiers in Robotics and AI},      
+  volume={9},           
+  year={2022},       
+  url={https://www.frontiersin.org/articles/10.3389/frobt.2022.854381},       
+  doi={10.3389/frobt.2022.854381}
+}
+
+```
+
+## 5. Acknowledgements
+This project is funded by ***California Department of Pesticide Regulation***.
+
+## 6. Licence
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
