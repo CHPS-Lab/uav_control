@@ -1,7 +1,7 @@
 # uav_control
 ## Chance Constrained Model Predictive Control
 
-<img src="figures/drone.jpg" width="400">
+<img src="figures/drone.jpg" width="450">
 
 ## 1. Introduction
 Chance constrained MPC for unmanned aerial vehicle flight control with consideration of wind speed and direction. This MPC is intended to be used with a dispersion model identified through flight experiments. The model predicts the distribution of vermiculite dispensed from a hovering drone given the drone’s movement state, wind condition, and dispenser setting.
@@ -72,7 +72,7 @@ Na Ma, Anil Mantri, Graham Bough, Ayush Patnaik, Siddhesh Yadav, Christian Nanse
 ```
 
 ## 5. Acknowledgements
-This project is funded by ***California Department of Pesticide Regulation***.
+This project is funded by *California Department of Pesticide Regulation*.
 
 ## 6. Licence
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
